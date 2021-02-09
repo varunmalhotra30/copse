@@ -94,14 +94,11 @@ footer{
 max-width: 33%;
 }
 
-.wp-block-group.has-background {
-    padding: 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-    float: left;
-}
-.wp-block-image .components-resizable-box__container img {
-    float: right;
-    width: inherit;
-    height: inherit;
+
+
+ .wp-block-group__inner-container{
+    box-sizing: border-box;
+   
+   
+    
 }
