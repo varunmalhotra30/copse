@@ -53,7 +53,6 @@ if ( ! function_exists( 'copse_setup' ) ) :
 				'menu-primary' => esc_html__( 'Primary', 'copse' ),
 			)
 		);
-
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
