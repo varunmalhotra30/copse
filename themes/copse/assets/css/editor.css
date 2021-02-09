@@ -86,19 +86,20 @@ footer{
     max-width: 33%;
 }
 
-
-
-
-#block-643262f8-811c-480b-9c2d-49970c8bb9ae{
-
-max-width: 33%;
+.wp-block-group__inner-container {
+text-align: left;
 }
 
+.aligncenter{
+    padding-left: 2rem;
+}
 
+.entry-header .entry-title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
- .wp-block-group__inner-container{
-    box-sizing: border-box;
-   
-   
-    
+.entry-content {
+
+    padding: 2rem;
 }
