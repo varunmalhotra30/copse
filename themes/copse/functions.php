@@ -115,13 +115,13 @@ if ( ! function_exists( 'copse_setup' ) ) :
 		add_theme_support( 'align-full' );
 
 //add support for color pallet
-add_theme_support( 'editor-color-palette', array(
-    array(
-        'name' => esc_attr__( 'magenta', 'copse' ),
-        'slug' => 'magenta',
-        'color' => '#a156b4',
-    ),
-) );
+// add_theme_support( 'editor-color-palette', array(
+//     array(
+//         'name' => esc_attr__( 'magenta', 'copse' ),
+//         'slug' => 'magenta',
+//         'color' => '#a156b4',
+//     ),
+// ) );
 
 // add support for custom gradients 
 

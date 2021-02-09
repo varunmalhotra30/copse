@@ -78,3 +78,30 @@ footer{
     border: 1px solid black;
 }
 
+.alignfull {
+    max-width: 100%;
+}
+
+.alignwide{
+    max-width: 33%;
+}
+
+
+
+
+#block-643262f8-811c-480b-9c2d-49970c8bb9ae{
+
+max-width: 33%;
+}
+
+.wp-block-group.has-background {
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+.wp-block-image .components-resizable-box__container img {
+    float: right;
+    width: inherit;
+    height: inherit;
+}
