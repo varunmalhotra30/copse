@@ -1,0 +1,26 @@
+.is-style-fancy-quote{
+color: blue; 
+font-size: 30px;
+}
+
+.wp-block-buttons .wp-block-button .wp-block-button__link{
+    background-color: blue;
+}
+
+.alignwide{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.alignfull{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.has-magenta-background-color {
+    background-color: #a156b4;
+}
+ 
+.has-magenta-color {
+    color: #f78da7;
+}
