@@ -30,7 +30,7 @@
  <div class=" grid-x">
  
  
- <div class="cell large-4">
+ <div class="cell large-3">
 
  <div class="site-branding">
 			<?php
@@ -53,9 +53,10 @@
 
 		<div class="cell search-bar large-6 small-12">
 
-seacrh bar
+		<input type="text" placeholder="search" id="searchBar">
 </div>
-
+<div class="cart cell large-1 small-1">
+			</div>
 <div class="cart cell large-1 small-1">
 	cart
 </div>
