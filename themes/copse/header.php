@@ -51,10 +51,21 @@
 			<?php endif; ?>
 		</div><!-- .site-branding --></div>
 
-		<div class="cell search-bar large-8 small-12">
- 
- 
- </div>
+		<div class="cell search-bar large-6 small-12">
+
+seacrh bar
+</div>
+
+<div class="cart cell large-1 small-1">
+	cart
+</div>
+
+<div class="my_account cell large-1 small-1">
+	My Account
+</div>
+
+
+
 		<div class="cell large-12 small-12">
  
  <nav id="site-navigation" class="main-navigation">

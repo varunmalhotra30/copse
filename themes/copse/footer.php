@@ -12,6 +12,24 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
+	<nav id="site-navigation" class="bottomMenu">
+			<button class="menu-toggle" aria-controls="Footer-menu" aria-expanded="false"><?php esc_html_e( 'Footer Menu', 'copse' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-footer',
+					'menu_id'        => 'footer-menu',
+				)
+			);
+			?>
+		</nav>
+
+
+
+
+
+
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'copse' ) ); ?>">
 				<?php
@@ -28,7 +46,21 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<nav id="site-navigation" class="bottomMenu">
+			<button class="menu-toggle" aria-controls="Footer-menu" aria-expanded="false"><?php esc_html_e( 'Footer Menu', 'copse' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-footer',
+					'menu_id'        => 'footer-menu',
+				)
+			);
+			?>
+		</nav>
+
 <?php wp_footer(); ?>
+
+
 
 </body>
 </html>

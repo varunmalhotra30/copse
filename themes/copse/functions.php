@@ -53,6 +53,12 @@ if ( ! function_exists( 'copse_setup' ) ) :
 				'menu-primary' => esc_html__( 'Primary', 'copse' ),
 			)
 		);
+
+		register_nav_menus(
+			array(
+				'menu-secondary' => esc_html__( 'Secondary', 'copse' ),
+			)
+		);
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
