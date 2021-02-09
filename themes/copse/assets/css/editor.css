@@ -24,3 +24,22 @@ font-size: 30px;
 .has-magenta-color {
     color: #f78da7;
 }
+
+.site-branding .custom-logo{
+    width: 50%;
+    padding-left: 2rem;
+}
+
+header{
+    padding-top: 1rem;
+}
+
+nav{
+    background-color: black;
+    max-width: 100%;
+}
+
+.menu-home-container ul li a{
+    color: #fff;
+    
+}

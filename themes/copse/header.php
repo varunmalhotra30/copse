@@ -26,11 +26,11 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'copse' ); ?></a>
 
 	<header id="masthead" class="site-header">
-<div class="grid-container">
- <div class=" grid-x grid-padding-x">
+<div class="grid">
+ <div class=" grid-x">
  
  
- <div class="cell">
+ <div class="cell large-4">
 
  <div class="site-branding">
 			<?php
@@ -51,11 +51,11 @@
 			<?php endif; ?>
 		</div><!-- .site-branding --></div>
 
-		<div class="cell">
+		<div class="cell search-bar large-8 small-12">
  
- search bar
+ 
  </div>
-		<div class="cell large-6 small-12">
+		<div class="cell large-12 small-12">
  
  <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'copse' ); ?></button>
@@ -75,9 +75,9 @@
  
  </div>
 
+		</div>
 
 
-</div>
 
 
 		<!-- #site-navigation -->
