@@ -55,15 +55,7 @@
 
 		<input type="text" placeholder="search" id="searchBar">
 </div>
-<div class="cart cell large-1 small-1">
-			</div>
-<div class="cart cell large-1 small-1">
-	cart
-</div>
 
-<div class="my_account cell large-1 small-1">
-	My Account
-</div>
 
 
 

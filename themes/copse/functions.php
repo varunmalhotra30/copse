@@ -99,8 +99,8 @@ if ( ! function_exists( 'copse_setup' ) ) :
 		add_theme_support(
 			'custom-logo',
 			array(
-				'height'      => 250,
-				'width'       => 250,
+				'height'      => 350,
+				'width'       => 350,
 				'flex-width'  => true,
 				'flex-height' => true,
 			)
@@ -109,7 +109,6 @@ if ( ! function_exists( 'copse_setup' ) ) :
 		// add support for block styles
 
 		add_theme_support( 'wp-block-styles' );
-
 		//add support for wide alignment
 		add_theme_support( 'align-wide' );
 		add_theme_support( 'align-full' );

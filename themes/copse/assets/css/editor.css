@@ -7,13 +7,10 @@ font-size: 30px;
     background-color: blue;
 }
 
-.alignwide{
-    max-width: 50%;
-    margin: 0 auto;
-}
+
 
 .alignfull{
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -75,8 +72,11 @@ footer{
 
 #searchBar{
 
-    border: 1px solid black;
+    border: 1px solid rgb(92, 55, 0);
+    margin-top: 1rem;
 }
+
+
 
 .alignfull {
     max-width: 100%;
@@ -103,3 +103,99 @@ text-align: left;
 
     padding: 3rem;
 }
+
+
+.entry-header .entry-title{
+
+    display: none;
+}
+
+.site-branding .custom-logo {
+    width: 80%;
+}
+
+.main-navigation ul {
+ 
+    
+    padding-left: 23% !important; 
+    padding-right: 20%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    text-align: center;
+    background-color: rgb(70, 0, 0);
+    
+}
+
+
+.main-navigation a{
+
+color: rgb(218, 218, 218) !important;
+
+}
+
+
+.main-navigation a:hover{
+
+    background-color: wheat;
+    color: black!important;
+    }
+
+
+    .woocommerce ul.products li.product  {
+       
+        border: 2px solid rgb(80, 80, 80);
+        padding: 1rem !important;
+        
+    }
+
+    .woocommerce ul.products li.product a {
+      color: black;
+      font-weight: 600;
+    }
+
+    .woocommerce ul.products li.product .price {
+        color: #685000 !important;
+        display: block;
+        font-weight: 500;
+        margin-bottom: .5em;
+        font-size: .857em;
+    }
+
+    .woocommerce div.product p.price, .woocommerce div.product span.price {
+        color: #685000 !important;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+
+color: rgb(255, 255, 255) !important;
+background-color: rgb(0, 0, 0) !important;
+width: 100%;
+
+    }
+
+    .onsale{
+
+        border-radius: 0%!important;
+        color: rgb(247, 247, 247) !important;
+        background-color: rgb(63, 0, 0) !important;
+    }
+
+    
+select{
+
+    border: none!important;
+}
+
+
+.tabs{
+background-color: rgb(46, 0, 0)!important;
+border: none!important;
+padding-top: .6rem!important;
+
+}
+.coupon .button{
+    width: 100%!important;
+}
+
