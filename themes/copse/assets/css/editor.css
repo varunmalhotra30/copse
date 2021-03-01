@@ -1,10 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+
 .is-style-fancy-quote{
-color: blue; 
+color: rgb(78, 0, 0); 
 font-size: 30px;
+border: rgb(49, 0, 0);
 }
 
 .wp-block-buttons .wp-block-button .wp-block-button__link{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -195,7 +201,20 @@ border: none!important;
 padding-top: .6rem!important;
 
 }
-.coupon .button{
-    width: 100%!important;
+
+.wp-block-column h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    
 }
 
+.wp-block-column p{
+    font-family: 'Raleway', sans-serif;
+ 
+}
+
+h2{
+
+    font-family: 'Raleway', sans-serif;
+}
