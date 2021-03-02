@@ -308,7 +308,7 @@ p{
     font-family: 'Raleway', sans-serif !important;  
     font-weight: 700;
     text-align: center;
- }
+}
 
 .comment-respond{
     display: none;
@@ -320,6 +320,22 @@ p{
 
 .posted-on, .byline, .author{
     display: none;
+}
+
+/* blog posts css */
+
+
+#blog-p, #bolg-p{
+padding-left:24%;
+padding-right: 20%;
+}
+
+#blog-h3{
+
+    text-align: center;
+    padding: 1%;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 400;
 }
 
 footer{
