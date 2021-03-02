@@ -394,7 +394,7 @@ float: right;
 .woocommerce-account .woocommerce-MyAccount-navigation a{
 
     color: black!important;
-    list-style-type: none;
+    list-style-type:none ;
 }
 
 .woocommerce-account .woocommerce-MyAccount-navigation a:hover{
