@@ -13,7 +13,7 @@
 	<header class="entry-header">
 		<?php
 
-		if (! is_product()){
+if (! is_product()){
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
