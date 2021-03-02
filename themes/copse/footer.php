@@ -13,38 +13,33 @@
 
 	<footer id="colophon" class="site-footer">
 
-	<nav id="site-navigation" class="bottomMenu">
-			<button class="menu-toggle" aria-controls="Footer-menu" aria-expanded="false"><?php esc_html_e( 'Footer Menu', 'copse' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-footer',
-					'menu_id'        => 'footer-menu',
-				)
-			);
-			?>
+	<p>
+
+	Quick Links 
+	</p>
+	<nav id="site-navigation" class="bottomMenu cell large-6 small-12">
+	<?php wp_nav_menu( array( 'theme_location' => 'menu-secondary' ) ); ?>  
+		
 		</nav>
 
+<div class="subscribe cell large-6 small-12">
+
+
+<form class="example" action="/action_page.php" style="margin:auto;max-width:400px">
+<p>Subscribe</p>
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+</div>
 
 
 
 
 
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'copse' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'copse' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'copse' ), 'copse', '<a href="http://malhotrasweb.com">Varun Malhotra</a>' );
-				?>
-		</div><!-- .site-info -->
+		
 	</footer><!-- #colophon -->
-</div><!-- #page -->
+
 
 
 

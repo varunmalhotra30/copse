@@ -60,7 +60,7 @@
 
 
 		<div class="cell large-12 small-12">
- 
+
  <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'copse' ); ?></button>
 			<?php
@@ -72,7 +72,7 @@
 			);
 			?>
 		</nav>
-
+		
 		</div>
  
  
