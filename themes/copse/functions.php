@@ -208,6 +208,11 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 
+// woocommerce hooks 
+require get_template_directory() . '/inc/woocommerce.php';
+
+
+
 // enqueing block editor assets
 
 function copse_enqueue_block_editor_assets() {

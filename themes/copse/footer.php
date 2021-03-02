@@ -28,7 +28,7 @@
 <form class="example" action="/action_page.php" style="margin:auto;max-width:400px">
 <p>Subscribe</p>
   <input type="text" placeholder="Search.." name="search2">
-  <button type="submit"><i class="fa fa-search"></i></button>
+  <button type="submit"><i class="fa fa-check-square"></i></button>
 </form>
 
 </div>

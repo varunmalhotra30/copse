@@ -51,11 +51,16 @@
 			<?php endif; ?>
 		</div><!-- .site-branding --></div>
 
-		<div class="cell search-bar large-6 small-12">
+		<div class="cell search-bar large-5 small-12">
 
 		<input type="text" placeholder="search" id="searchBar">
 </div>
 
+<div class="cell cart_items search-bar large-2 small-12">
+
+<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
+
+</div>
 
 
 
@@ -83,6 +88,7 @@
 
 
 
+	
 
 		<!-- #site-navigation -->
 	</header><!-- #masthead -->
