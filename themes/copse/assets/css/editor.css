@@ -411,9 +411,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 
 .woocommerce-account .woocommerce-MyAccount-navigation {
-   background-color: white!important;
+background-color: white!important;
 float: right;
-    
+
 }
 .woocommerce-account .woocommerce-MyAccount-navigation a{
 
