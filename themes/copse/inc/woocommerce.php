@@ -5,6 +5,7 @@
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 2 );
 
 
+
 function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	global $woocommerce;
 
