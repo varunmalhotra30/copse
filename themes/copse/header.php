@@ -79,16 +79,10 @@
 		</nav>
 		
 		</div>
- 
- 
- 
- </div>
+
+</div>
 
 		</div>
-
-
-
-	
 
 		<!-- #site-navigation -->
 	</header><!-- #masthead -->
