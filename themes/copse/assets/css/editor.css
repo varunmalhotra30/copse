@@ -407,8 +407,30 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     margin-left:15% ;
 }
 
+/* my account styling  */
 
 
+.woocommerce-account .woocommerce-MyAccount-navigation {
+   background-color: white!important;
+float: right;
+    
+}
+.woocommerce-account .woocommerce-MyAccount-navigation a{
+
+    color: black!important;
+    list-style-type: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation a:hover{
+
+   text-decoration: underline;
+   
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li{
+
+    color: black!important;
+    list-style-type: none;
+}
 footer{
     background-color: rgb(0, 0, 0);
     padding: 2rem;
