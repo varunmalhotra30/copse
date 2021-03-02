@@ -67,9 +67,7 @@ nav{
 }
 
 .menu-primary-menu-container ul li a{
-    color: #fff;
-
-
+   color: #fff;
 }
 
 .menu-primary-menu-container ul li a :hover{
@@ -83,7 +81,6 @@ nav{
 
 
 #searchBar{
-
     border: 1px solid rgb(92, 55, 0);
     margin-top: 1rem;
 }
@@ -112,13 +109,11 @@ text-align: left;
 }
 
 .entry-content {
-
     padding: 3rem;
 }
 
 
 .entry-header .entry-title{
-
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 text-align: center; 
@@ -131,15 +126,12 @@ padding-top: 3%;
 }
 
 .main-navigation ul {
- 
-    
     padding-left: 13% !important; 
     padding-right: 10%;
     padding-top: 0.6%;
     padding-bottom: 0.6%;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    
 }
 
 
@@ -148,8 +140,6 @@ padding-top: 3%;
 color: rgb(218, 218, 218) !important;
 font-family: 'Raleway', sans-serif;
 font-weight: 400;
-
-
 }
 
 
@@ -161,15 +151,14 @@ font-weight: 400;
 
 
     .woocommerce ul.products li.product  {
-       
+    
         border: 2px solid rgb(80, 80, 80);
-        padding: 1rem !important;
-        
+        padding: 1rem !important;    
     }
 
     .woocommerce ul.products li.product a {
-      color: black;
-      font-weight: 600;
+    color: black;
+    font-weight: 700;
     }
 
     .woocommerce ul.products li.product .price {
