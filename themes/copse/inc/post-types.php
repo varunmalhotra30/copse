@@ -2,7 +2,7 @@
 /**
  * Registering custom post type
  */
-function productsite_init() {
+function copse_init() {
     $labels = array(
         'name'                  => _x( 'Recipes', 'Post type general name', 'copse' ),
         'singular_name'         => _x( 'Recipe', 'Post type singular name', 'copse' ),
