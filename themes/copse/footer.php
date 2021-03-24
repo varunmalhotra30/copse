@@ -11,32 +11,33 @@
 
 ?>
 <?php
-$args = array(  
+$copse_args = array(  
     'post_type' => 'copse_recipe',
     'posts_per_page' => 3, 
 );
 
 ?>
 
-<div class="large-12 custom_posts"> <h1>Posts</h1> </div>
 
 <?php
-$loop = new WP_Query( $args );
+$copse_query = new WP_Query( $copse_args );
 
 
-while ( $loop->have_posts() ) : $loop->the_post(); ?>
-<div class="cell large-4 box">
-    
+while ( $copse_query->have_posts() ) : $copse_query->the_post(); ?>
+<div class="grid-x">
+<div class="cell large-12 postThumbnail">
     <h4><?php print the_title(); ?></h4>
-	
+    <?php if (has_post_thumbnail() ) { ?>
         <?php the_post_thumbnail('medium'); ?>
-    <
+    <?php } ?>
+
+    <?php if ( get_the_excerpt()) { ?>
         <?php the_excerpt(); ?> 
-    <?php }  ?>
-
-
     <a href="<?php the_permalink(); ?>">Read More</a>
 
+ 
+    <?php }  ?>
+</div>
 </div>
 <?php
 endwhile;
@@ -60,24 +61,14 @@ wp_reset_postdata();
 
 <form class="example" action="/action_page.php" style="margin:auto;max-width:400px">
 <p>Subscribe</p>
-  <input type="text" placeholder="Search.." name="search2">
-  <button type="submit"><i class="fa fa-check-square"></i></button>
+<input type="text" placeholder="Search.." name="search2">
+<button type="submit"><i class="fa fa-check-square"></i></button>
 </form>
 
 
 </div>
 
-
-
-
-
-
-		
-	</footer><!-- #colophon -->
-
-
-
-
+</footer><!-- #colophon -->
 <?php wp_footer(); ?>
 
 

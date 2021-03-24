@@ -30,7 +30,7 @@
  <div class=" grid-x">
  
  
- <div class="cell large-3">
+ <div class="cell large-2 small-4">
 
  <div class="site-branding">
 			<?php
@@ -51,22 +51,10 @@
 			<?php endif; ?>
 		</div><!-- .site-branding --></div>
 
-		<div class="cell search-bar large-5 small-12">
-
-		<input type="text" placeholder="search" id="searchBar">
-</div>
-
-<div class="cell cart_items search-bar large-2 small-12">
-
-<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
-
-</div>
-
-
-
-		<div class="cell large-12 small-12">
+		<div class="cell search-bar large-8 small-12">
 
  <nav id="site-navigation" class="main-navigation">
+ 
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'copse' ); ?></button>
 			<?php
 			wp_nav_menu(
@@ -76,9 +64,20 @@
 				)
 			);
 			?>
+
+
 		</nav>
-		
+	
+</div>
+
+<div class="large-2 small-2" >
+		<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
 		</div>
+
+
+
+
+		
 
 </div>
 
