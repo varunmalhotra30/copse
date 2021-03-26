@@ -25,12 +25,15 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'copse' ); ?></a>
 
-	<header id="masthead" class="site-header">
+
+
+
+	<header id="masthead" class="site-header header">
 <div class="grid">
  <div class=" grid-x">
  
  
- <div class="cell large-2 small-4">
+ <div class="cell large-2 small-3">
 
  <div class="site-branding">
 			<?php
@@ -51,11 +54,11 @@
 			<?php endif; ?>
 		</div><!-- .site-branding --></div>
 
-		<div class="cell search-bar large-8 small-12">
-
- <nav id="site-navigation" class="main-navigation">
- 
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'copse' ); ?></button>
+		<div class="cell search-bar large-8 small-7">
+<ul class="menu"><li>
+<a class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'copse' ); ?></a>
+			</li>
+			</ul>
 			<?php
 			wp_nav_menu(
 				array(
@@ -64,12 +67,9 @@
 				)
 			);
 			?>
-
-
-		</nav>
-	
+<input class="menu-btn" type="checkbox" id="menu-btn" />
+<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 </div>
-
 <div class="large-2 small-2" >
 		<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
 		</div>
