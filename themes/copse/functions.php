@@ -7,6 +7,7 @@
  * @package copse
  */
 
+
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
@@ -59,6 +60,16 @@ if ( ! function_exists( 'copse_setup' ) ) :
 				'menu-secondary' => esc_html__( 'Secondary', 'copse' ),
 			)
 		);
+
+		// register_nav_menu ('primary mobile', __( 'Navigation Mobile', 'copse' ));
+			
+		// 	add_action( 'after_setup_theme', 'extra_setup' );
+
+		// 	function set_container_class ($args) {
+		// 		$args['container_class'] = str_replace(' ','-',$args['theme_location']).'-nav'; return $args;
+		// 		}
+		// 		add_filter ('wp_nav_menu_args', 'set_container_class');
+			
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
